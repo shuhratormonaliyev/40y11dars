@@ -190,3 +190,93 @@
 // ========================== 2 -misol ===========================
 
 
+
+// function convertToLowerCase(str) {
+//     return str.toLowerCase();
+// }
+// const res = convertToLowerCase("WORLD");
+
+// console.log(res);
+
+
+// ========================== 3 -misol ===========================
+
+
+
+// function concatStrings(str1, str2) {
+//     return str1.concat(str2);
+// }
+
+// let result = concatStrings("hi" ,"bye");
+// console.log(result);
+
+
+// ========================== 4 -misol ===========================
+
+
+// function trimString(str) {
+//     return str.trim();
+// }
+// const res = trimString("                                              salom                      ");
+
+// console.log(res);
+
+
+// ========================== 5 -misol ===========================
+
+
+// Berilgan stringning boshiga ma'lum miqdorda belgi qo'shib uzunligini ma'lum qiymatga yetkazadigan 
+
+// `padStringStart(str, maxLength, padChar)` funksiyasini yozing (`padStart` metodidan foydalaning).
+
+
+// function padStringStart(str, maxLength, padChar) {
+//     return str.padStart(maxLength, padChar);
+// }
+
+// let result = padStringStart("123", 6, "0");
+// console.log(result);
+
+
+
+// ========================== 6 -misol ===========================
+
+
+// function padStringEnd(str, maxLength, padChar) {
+//     return str.padEnd(maxLength, padChar);
+// }
+
+// let result = padStringEnd("123", 6, "0");
+// console.log(result);
+
+
+// ========================== 7 -misol ===========================
+
+
+
+// Massiv va stringlarni birlashtirib ishlatiladigan va funksiyalar yordamida yechiladigan
+
+
+
+// ========================== 1 -misol ===========================
+
+
+
+// function processString(str) {
+//     let wordsArray = str.split(' ');
+
+//     let upperCaseArray = wordsArray.map(word => word.toUpperCase());
+
+//     let resultString = upperCaseArray.join(',');
+
+//     return resultString;
+// }
+
+// let result = processString("hello world");
+// console.log(result); 
+
+
+// ========================== 2 -misol ===========================
+
+
+
